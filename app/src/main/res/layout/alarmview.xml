@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/bb">
+
+    <!--#ff0e0e0e-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time"
+        android:id="@+id/textView2"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="date"
+        android:id="@+id/textView3"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Anywhere"
+        android:id="@+id/textView4"
+        android:textIsSelectable="true"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="set alarm"
+        android:id="@+id/openApp"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"/>
+
+
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="set time"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="set location"
+        android:id="@+id/button5"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="set date"
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff"/>
+
+</RelativeLayout>

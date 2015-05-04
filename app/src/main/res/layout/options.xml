@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/bb">
+
+    <!--#ff0e0e0e-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time"
+        android:id="@+id/textView2"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="date"
+        android:id="@+id/textView3"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="place"
+        android:id="@+id/text_location"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set location"
+        android:id="@+id/button_location"
+        android:layout_below="@+id/text_location"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set time"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set date"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="#22ffffff" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/openApp"
+        android:layout_below="@+id/button_location"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete alarm"
+        android:id="@+id/button5"
+        android:layout_below="@+id/openApp"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>

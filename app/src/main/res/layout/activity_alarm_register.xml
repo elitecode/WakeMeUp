@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="full name"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"/>
+
+    <EditText android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"
+        android:background="#ffe3eaff"
+        android:layout_weight="0.04"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="mobile"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:textColor="#ffa2c2e8"/>
+
+    <EditText android:id="@+id/txtEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="20dip"
+        android:background="#ffe3eaff"
+        android:layout_weight="0.04"/>
+
+    <Button android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_margin="10dip"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wake Up Alarm</string>
+    <string name="SERVER_IP">http://10.20.254.153</string>
+    <string name="Verify_contact">/alarmChat/verify.php</string>
+    <string name="preference_file_key">preference_username_password</string>
+    <string name="username">username</string>
+    <string name="mobile">mobile</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="gcmPreference">gcmPreference</string>
+    <string name="PROPERTY_REG_ID">registration_id</string>
+    <string name="SENDER_ID">73106556197</string>
+    <string name="PROPERTY_APP_VERSION">appVersion</string>
+    <string name="Register_Page">/alarmChat/register.php</string>
+    <string name="Upload_Location_Page">/alarmChat/uploadLocation.php</string>
+    <string name="Send_Message">/alarmChat/sendMessage.php</string>
+    <string name="Multi_Send_Message">/alarmChat/multiSendMessage.php</string>
+    <string name="Send_Distance_Page">/alarmChat/sendDistance.php</string>
+    <string name="Find_Nearest_Page">/alarmChat/findNearest.php</string>
+    <string name="Message_Type">type</string>
+    <string name="Call_Person">callPerson</string>
+    <string name="Return_Distance">calcDistance</string>
+    <string name="Receive_Distance">receiveDistance</string>
+    <string name="DB_name">alarmChatDB</string>
+    <string name="Table_Distance">distanceTable</string>
+    <string name="Table_Add_Request">addRequest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alarm_register">Registration</string>
+    <string name="Saved_Phone_Number">PhoneNumberEditorName</string>
+    <string name="Phone_number">PhoneNumber</string>
+    <string name="Ringtone_uri">ringtoneuri</string>
+    <string name="select_location">Select Location</string>
+    <string name="REQUEST_LOCATION">1</string>
+    <string name="text">wowman</string>
+    <string name="title_activity_notification_receiver">NotificationReceiverActivity</string>
+
+</resources>

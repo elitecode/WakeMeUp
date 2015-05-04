@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb">
+
+    <Button
+        android:text="add alarm"
+        android:id="@+id/addalarmbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <Button
+        android:text="select friends"
+        android:id="@+id/selectfriends"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:text="select alarmtone"
+        android:id="@+id/selecttone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#ffffffff"
+        android:textAllCaps="false"
+        android:typeface="normal"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+</LinearLayout>
